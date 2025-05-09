@@ -1,1 +1,53 @@
 /* You can add global styles to this file, and also import other style files */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    position: relative;
+}
+
+.main-content{
+    padding-top: 50px;
+    padding-right: 30px;
+    width: 100%;
+    position: relative;
+}
+
+.section{
+    display: block;
+    unicode-bidi: isolate;
+}
+
+.card{
+    background-color: #fff;
+    border-radius: 10px;
+    border: none;
+    position: relative;
+    margin-bottom: 30px;
+    box-shadow: 0 0.46875rem 2.1875rem rgba(90, 97, 105, 0.1), 0 0.9375rem 1.40625rem rgba(90, 97, 105, 0.1), 0 0.25rem 0.53125rem rgba(90, 97, 105, 0.12), 0 0.125rem 0.1875rem rgba(90, 97, 105, 0.1);
+}
+
+.card .card-statistic-4 {
+    position: relative;
+    color: #000000;
+    padding: 15px;
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+.font-14 {
+    font-size: 15px !important;
+}
+
+.font-18{
+    font-size: 18px !important;
+}
+.font-10{
+    font-size: 14px !important;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+}
